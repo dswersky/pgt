@@ -13,6 +13,11 @@ body {
     position: relative;
 }
 
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
+
 .scroll {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
